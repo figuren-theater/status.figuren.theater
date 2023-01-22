@@ -3,27 +3,25 @@
 # "title" will be displayed as "human name" instead of "name" if specified
 # All defaults values can be overriden per host basis
 hosts:
-  # Example / test root domain
-  - name: google.com
-    title: Google
-  # Example / test url
-  - name: github.com/lowlighter/downtime
-    title: Downtime repository
-  # Example / test ip with port using ncat
-  - name: "8.8.8.8"
-    title: Google DNS
-    port: 53
-    use: ncat
-  # Example / unavailable website
-  - name: unavailable.website.com
-    title: Unavailable website
+  # 
+  - name: figuren.theater
+    title: figuren.theater
+  # 
+  - name: websites.fuer.figuren.theater
+    title: websites.fuer.figuren.theater
+  # 
+  - name: mein.figuren.theater
+    title: mein.figuren.theater
+  # 
+  - name: puppen.theater
+    title: puppen.theater
 
 # Site configuration
 site:
   # Title
-  title: Downtime
+  title: Status of figuren.theater WordPress multisite network
   # Favicon / logo
-  favicon: https://simon.lecoq.io/src/icon.png
+  favicon: https://figuren.theater/__media/2022/09/cropped-favicon-192x192.png
   # Refresh rate of status images for client
   refresh_rate_sec: 120
 
