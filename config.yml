@@ -15,6 +15,9 @@ hosts:
   # 
   - name: puppen.theater
     title: puppen.theater
+  # 
+  - name: assets.figuren.theater
+    title: assets.figuren.theater
 
 # Site configuration
 site:
