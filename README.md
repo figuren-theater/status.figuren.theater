@@ -21,8 +21,8 @@ See [USAGE.md](/USAGE.md) for more informations.
 ## 🚥 Current status
 
 <!-- <downtime-status> -->
-![Google](/status/google.com-443.svg)
-![Downtime repository](/status/github.com-lowlighter-downtime-443.svg)
-![Google DNS](/status/8.8.8.8-53.svg)
-![Unavailable website](/status/unavailable.website.com-443.svg)
+![figuren.theater](/status/figuren.theater-443.svg)
+![websites.fuer.figuren.theater](/status/websites.fuer.figuren.theater-443.svg)
+![mein.figuren.theater](/status/mein.figuren.theater-443.svg)
+![puppen.theater](/status/puppen.theater-443.svg)
 <!-- <downtime-status/> -->
