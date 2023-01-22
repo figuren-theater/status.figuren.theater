@@ -25,4 +25,5 @@ See [USAGE.md](/USAGE.md) for more informations.
 ![websites.fuer.figuren.theater](/status/websites.fuer.figuren.theater-443.svg)
 ![mein.figuren.theater](/status/mein.figuren.theater-443.svg)
 ![puppen.theater](/status/puppen.theater-443.svg)
+![assets.figuren.theater](/status/assets.figuren.theater-443.svg)
 <!-- <downtime-status/> -->
