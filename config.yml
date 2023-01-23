@@ -21,10 +21,6 @@ hosts:
 
 # Site configuration
 site:
-  # Title
-  title: Status
-  # Favicon / logo
-  favicon: https://figuren.theater/favicon.ico
   # Refresh rate of status images for client
   refresh_rate_sec: 120
 

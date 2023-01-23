@@ -1,22 +1,6 @@
 (async function () {
   const config = await fetch("static/site").then(response => response.json())
-  //Update title
-    document.title = config.title ?? "Downtime"
-    document.querySelector(".name").innerText = document.title
-  //Update logo/favicon
-    if (config.favicon) {
-      //Update logo
-        const img = document.createElement("img")
-        img.src = config.favicon
-      //Update favicon
-        let favicon = document.querySelector("link[rel~='icon']")
-        if (!favicon) {
-          favicon = document.createElement("link")
-          favicon.rel = "icon"
-          document.querySelector("head").appendChild(favicon)
-        }
-        favicon.href = config.favicon
-    }
+
   //Update
     ;(async function update() {
       try {
