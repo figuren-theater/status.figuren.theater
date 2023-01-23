@@ -24,7 +24,7 @@ site:
   # Title
   title: Status
   # Favicon / logo
-  favicon: https://figuren.theater/__media/2022/09/cropped-favicon-192x192.png
+  favicon: https://figuren.theater/favicon.ico
   # Refresh rate of status images for client
   refresh_rate_sec: 120
 
