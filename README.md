@@ -17,8 +17,8 @@ Visit [status.figuren.theater](https://status.figuren.theater) or the [github-pa
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/figuren-theater/ft-platform/deploy.yml?label=DEPLOY&logo=github)
 ![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/figuren-theater/ft-maintenance/wp-cron-runner.yml?label=CRON&logo=wordpress)
 
-![GitHub issue custom search](https://img.shields.io/github/issues-search?label=pull%20requests&query=is%3Aopen%20is%3Apr%20archived%3Afalse%20org%3Afiguren-theater)
-![GitHub issue custom search](https://img.shields.io/github/issues-search?label=issues&query=is%3Aopen%20is%3Aissue%20archived%3Afalse%20org%3Afiguren-theater)
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?label=pull%20requests&query=is%3Aopen%20is%3Apr%20archived%3Afalse%20org%3Afiguren-theater)](https://github.com/pulls?q=is%3Aopen+is%3Apr+org%3Afiguren-theater+archived%3Afalse+is%3Apublic)
+[![GitHub issue custom search](https://img.shields.io/github/issues-search?label=issues&query=is%3Aopen%20is%3Aissue%20archived%3Afalse%20org%3Afiguren-theater)](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Afiguren-theater+archived%3Afalse+is%3Apublic)
 
 
 ---
