@@ -13,13 +13,15 @@ Visit [status.figuren.theater](https://status.figuren.theater) or the [github-pa
 <!-- <downtime-status/> -->
 
 ---
-![GitHub Release Date](https://img.shields.io/github/release-date/figuren-theater/ft-platform?label=last%20update)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/figuren-theater/ft-platform/deploy.yml?label=DEPLOY&logo=github)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/figuren-theater/ft-maintenance/wp-cron-runner.yml?label=CRON&logo=wordpress)
+![Last Release Date](https://img.shields.io/github/release-date/figuren-theater/ft-platform?label=last%20update)
+![Deployment Workflow Status](https://img.shields.io/github/actions/workflow/status/figuren-theater/ft-platform/deploy.yml?label=DEPLOY&logo=github)
+![CRON-runner Workflow Status](https://img.shields.io/github/actions/workflow/status/figuren-theater/ft-maintenance/wp-cron-runner.yml?label=CRON&logo=wordpress)
 
-[![GitHub issue custom search](https://img.shields.io/github/issues-search?label=pull%20requests&query=is%3Aopen%20is%3Apr%20archived%3Afalse%20org%3Afiguren-theater)](https://github.com/pulls?q=is%3Aopen+is%3Apr+org%3Afiguren-theater+archived%3Afalse+is%3Apublic)
-[![GitHub issue custom search](https://img.shields.io/github/issues-search?label=issues&query=is%3Aopen%20is%3Aissue%20archived%3Afalse%20org%3Afiguren-theater)](https://github.com/issues?q=is%3Aopen+is%3Aissue+org%3Afiguren-theater+archived%3Afalse+is%3Apublic)
+![Todo Pull-requests on GitHub](https://img.shields.io/github/issues-search?query=is%3Aopen%20is%3Apr%20org%3Afiguren-theater%20archived%3Afalse%20-label%3A%22tracking%20issue%22&logo=github&label=Pull-requests%20todo&color=red)
+![Todo Issues on GitHub](https://img.shields.io/github/issues-search?query=is%3Aopen%20is%3Aissue%20org%3Afiguren-theater%20archived%3Afalse%20-label%3A%22tracking%20issue%22&logo=github&label=Issues%20todo&color=red)
 
+![Done Pull-requests on GitHub](https://img.shields.io/github/issues-search?query=is%3Aclosed%20is%3Apr%20org%3Afiguren-theater%20archived%3Afalse%20-label%3A%22tracking%20issue%22&logo=github&label=Pull-requests%20done&color=darkgreen)
+![Done Issues on GitHub](https://img.shields.io/github/issues-search?query=is%3Aclosed%20is%3Aissue%20org%3Afiguren-theater%20archived%3Afalse%20-label%3A%22tracking%20issue%22&logo=github&label=Issues%20done&color=darkgreen)
 
 ---
 
