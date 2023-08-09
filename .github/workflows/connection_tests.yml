@@ -39,6 +39,7 @@ jobs:
       - name: Optimize and commit results
         run: |
           npx svgo --multipass -f status
+          git pull --ff-only --quiet
           git add static/site hosts status README.md index.html
           git commit -m "Update connection status"
           git push
