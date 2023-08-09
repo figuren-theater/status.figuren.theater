@@ -34,7 +34,7 @@ jobs:
       - name: Update Timestamp
         run: |
           current_date=$(date +"%Y-%m-%d %H:%M:%S")
-          sed -i "s|<span id=\"last-updated\">[^<]*</span>|<span id=\"last-updated\">Last updated: $current_date</span>|" index.html
+          sed -i "s|<span id=\"last-updated\">[^<]*</span>|<span id=\"last-updated\">Updated: $current_date</span>|" index.html
 
       - name: Optimize and commit results
         run: |
