@@ -31,9 +31,14 @@ jobs:
       - name: Perform connection tests
         run: deno run --allow-net --allow-read --allow-write --allow-run --unstable source/tests.ts
 
+      - name: Update Timestamp
+        run: |
+          current_date=$(date +"%Y-%m-%d %H:%M:%S")
+          sed -i "s|<span id=\"last-updated\">[^<]*</span>|<span id=\"last-updated\">Last updated: $current_date</span>|" index.html
+
       - name: Optimize and commit results
         run: |
           npx svgo --multipass -f status
-          git add static/site hosts status README.md
+          git add static/site hosts status README.md index.html
           git commit -m "Update connection status"
           git push
