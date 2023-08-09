@@ -3,9 +3,9 @@ name: Connection tests
 on:
   schedule:
     - cron: '*/5 * * * *'
-  push:
-    branches:
-      - main
+ # push:
+  #  branches:
+   #   - main
 
 jobs:
   connection-tests:
