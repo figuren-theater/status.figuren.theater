@@ -16,6 +16,14 @@ jobs:
     
     steps:
 
+      - name: Restore Cache
+        uses: actions/cache@v2
+        with:
+          path: |
+            ~/.deno
+            ~/.npm
+          key: ${{ runner.os }}-deps-${{ hashFiles('config.yml') }}
+
       - name: Checkout
         uses: actions/checkout@v3
         with:
