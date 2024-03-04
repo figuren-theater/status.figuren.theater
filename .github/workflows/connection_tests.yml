@@ -17,7 +17,7 @@ jobs:
     steps:
 
       - name: Restore Cache
-        uses: actions/cache@v2
+        uses: actions/cache@v4
         with:
           path: |
             ~/.deno
@@ -25,13 +25,13 @@ jobs:
           key: ${{ runner.os }}-deps-${{ hashFiles('config.yml') }}
 
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           token: ${{ secrets.BOT_TOKEN }}
 
       - name: Setup
-        uses: denolib/setup-deno@v2
+        uses: denoland/setup-deno@v1
 
       - name: Additional setup
         run: |
