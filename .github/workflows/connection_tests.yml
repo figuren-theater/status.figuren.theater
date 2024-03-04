@@ -3,9 +3,10 @@ name: Connection tests
 on:
   schedule:
     - cron: '*/5 * * * *'
-  push:
-    branches:
-      - main
+ # prevent independent loops, lets only use the sheduled runs
+ # push:
+ #   branches:
+ #     - main
 
 jobs:
   connection-tests:
