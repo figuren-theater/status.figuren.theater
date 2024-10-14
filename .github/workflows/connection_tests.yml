@@ -52,7 +52,7 @@ jobs:
           token: ${{ secrets.BOT_TOKEN }}
 
       - name: Setup
-        uses: denoland/setup-deno@v1
+        uses: denoland/setup-deno@v2
 
       - name: Additional setup
         run: |
